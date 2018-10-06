@@ -50,7 +50,7 @@ if( dif>3) {
     rpm=rpm/2;
     baslangic=millis();
         Serial.print(" td ");
-    Serial.print(rpm);
+    Serial.println(rpm);
     kount=0;
     }
 }
