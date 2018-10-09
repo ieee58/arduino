@@ -1,0 +1,14 @@
+delete(instrfindall);
+s = serial('COM3');
+set(s,'BaudRate',9600);
+fopen(s);
+fprintf(s,'*IDN?')
+x=0;
+for i=1:1000
+    
+    out=fgets(s)
+    
+end
+
+
+clear s
